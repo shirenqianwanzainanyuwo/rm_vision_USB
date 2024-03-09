@@ -1,0 +1,22 @@
+[0.000000] (-) TimerEvent: {}
+[0.000214] (-) JobUnselected: {'identifier': 'armor_detector'}
+[0.000268] (-) JobUnselected: {'identifier': 'armor_tracker'}
+[0.000279] (-) JobUnselected: {'identifier': 'auto_aim_interfaces'}
+[0.000288] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000297] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000306] (-) JobUnselected: {'identifier': 'hik_camera'}
+[0.000314] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000323] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000332] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.000340] (-) JobUnselected: {'identifier': 'image_view'}
+[0.000348] (-) JobUnselected: {'identifier': 'mindvision_camera'}
+[0.000356] (-) JobUnselected: {'identifier': 'rm_auto_aim'}
+[0.000365] (-) JobUnselected: {'identifier': 'rm_gimbal_description'}
+[0.000373] (-) JobUnselected: {'identifier': 'rm_serial_driver'}
+[0.000382] (-) JobUnselected: {'identifier': 'rm_vision_bringup'}
+[0.000390] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.000398] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.000409] (image_pipeline) JobQueued: {'identifier': 'image_pipeline', 'dependencies': OrderedDict([('camera_calibration', '/home/wjrgfdy/rm_ws/install/camera_calibration'), ('depth_image_proc', '/home/wjrgfdy/rm_ws/install/depth_image_proc'), ('image_publisher', '/home/wjrgfdy/rm_ws/install/image_publisher'), ('image_rotate', '/home/wjrgfdy/rm_ws/install/image_rotate'), ('image_view', '/home/wjrgfdy/rm_ws/install/image_view'), ('tracetools_image_pipeline', '/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline'), ('image_proc', '/home/wjrgfdy/rm_ws/install/image_proc'), ('stereo_image_proc', '/home/wjrgfdy/rm_ws/install/stereo_image_proc')])}
+[0.000430] (image_pipeline) JobStarted: {'identifier': 'image_pipeline'}
+[0.052759] (image_pipeline) JobEnded: {'identifier': 'image_pipeline', 'rc': 1}
+[0.063654] (-) EventReactorShutdown: {}

@@ -1,0 +1,64 @@
+[0.297s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/image_rotate
+[0.344s] -- The C compiler identification is GNU 12.3.0
+[0.415s] -- The CXX compiler identification is GNU 12.3.0
+[0.431s] -- Detecting C compiler ABI info
+[0.487s] -- Detecting C compiler ABI info - done
+[0.500s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.500s] -- Detecting C compile features
+[0.501s] -- Detecting C compile features - done
+[0.510s] -- Detecting CXX compiler ABI info
+[0.588s] -- Detecting CXX compiler ABI info - done
+[0.601s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.601s] -- Detecting CXX compile features
+[0.602s] -- Detecting CXX compile features - done
+[0.605s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.920s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.160s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.169s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.182s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.641s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.646s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.770s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.803s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.841s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.851s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.918s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.919s] -- Found Threads: TRUE  
+[2.301s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.302s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.302s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.804s] -- Found OpenCV: /usr/local (found version "4.9.0") found components: core imgproc 
+[2.838s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.915s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.937s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.937s] -- Configured cppcheck include dirs: /home/wjrgfdy/rm_ws/src/image_pipeline/image_rotate/include
+[2.937s] -- Configured cppcheck exclude dirs and/or files: 
+[2.937s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.937s] -- Configured cpplint exclude dirs and/or files: 
+[2.938s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.938s] -- Added test 'lint_cmake' to check CMake code style
+[2.938s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.938s] -- Added test 'uncrustify' to check C / C++ code style
+[2.938s] -- Configured uncrustify additional arguments: 
+[2.940s] -- Added test 'xmllint' to check XML markup files
+[2.944s] -- Configuring done (2.6s)
+[3.010s] -- Generating done (0.0s)
+[3.013s] -- Build files have been written to: /home/wjrgfdy/rm_ws/build/image_rotate
+[3.048s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/image_rotate
+[3.048s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_rotate -- -j12 -l12
+[3.270s] [ 25%] [32mBuilding CXX object CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o[0m
+[23.362s] [ 50%] [32m[1mLinking CXX shared library libimage_rotate.so[0m
+[23.940s] [ 50%] Built target image_rotate
+[23.970s] [ 75%] [32mBuilding CXX object CMakeFiles/image_rotate_bin.dir/src/image_rotate.cpp.o[0m
+[28.840s] [100%] [32m[1mLinking CXX executable image_rotate[0m
+[29.578s] [100%] Built target image_rotate_bin
+[29.599s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_rotate -- -j12 -l12
+[29.958s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_rotate
+[29.975s] -- Install configuration: ""
+[29.975s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/image_rotate/include
+[29.976s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/image_rotate/include/image_rotate
+[29.976s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/launch
+[29.976s] -- Installing: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/package.dsv
+[29.982s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_rotate

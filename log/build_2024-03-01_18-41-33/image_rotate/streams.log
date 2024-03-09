@@ -1,0 +1,38 @@
+[0.511s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_rotate -- -j12 -l12
+[0.673s] [ 25%] [32mBuilding CXX object CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o[0m
+[25.796s] [ 50%] [32m[1mLinking CXX shared library libimage_rotate.so[0m
+[26.895s] [ 50%] Built target image_rotate
+[27.002s] [ 75%] [32mBuilding CXX object CMakeFiles/image_rotate_bin.dir/src/image_rotate.cpp.o[0m
+[35.154s] [100%] [32m[1mLinking CXX executable image_rotate[0m
+[36.095s] [100%] Built target image_rotate_bin
+[36.111s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_rotate -- -j12 -l12
+[36.181s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_rotate
+[36.188s] -- Install configuration: ""
+[36.189s] -- Execute custom install script
+[36.190s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/include/image_rotate/image_rotate_node.hpp
+[36.190s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/include/image_rotate/visibility.h
+[36.190s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/environment/library_path.sh
+[36.190s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/environment/library_path.dsv
+[36.191s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/lib/libimage_rotate.so
+[36.191s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/lib/image_rotate/image_rotate
+[36.192s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/launch/image_rotate.launch.py
+[36.192s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/ament_index/resource_index/package_run_dependencies/image_rotate
+[36.192s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/ament_index/resource_index/parent_prefix_path/image_rotate
+[36.192s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.sh
+[36.193s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.dsv
+[36.193s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/environment/path.sh
+[36.193s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/environment/path.dsv
+[36.193s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/local_setup.bash
+[36.193s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/local_setup.sh
+[36.193s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/local_setup.zsh
+[36.194s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/local_setup.dsv
+[36.194s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/package.dsv
+[36.214s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/ament_index/resource_index/packages/image_rotate
+[36.214s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/ament_index/resource_index/rclcpp_components/image_rotate
+[36.214s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.214s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.215s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_libraries-extras.cmake
+[36.215s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig.cmake
+[36.215s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig-version.cmake
+[36.215s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_rotate/share/image_rotate/package.xml
+[36.218s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_rotate

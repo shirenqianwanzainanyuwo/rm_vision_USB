@@ -1,0 +1,86 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found OpenCV: /usr/local (found version "4.9.0") 
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/wjrgfdy/rm_ws/src/image_pipeline/image_proc/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.4s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/wjrgfdy/rm_ws/build/image_proc
+[  4%] [32mBuilding CXX object CMakeFiles/image_proc.dir/src/image_proc/processor.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rectify_node.dir/rclcpp_components/node_main_rectify_node.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/debayer_node.dir/rclcpp_components/node_main_debayer_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/resize_node.dir/rclcpp_components/node_main_resize_node.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/crop_non_zero_node.dir/rclcpp_components/node_main_crop_non_zero_node.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/crop_decimate_node.dir/rclcpp_components/node_main_crop_decimate_node.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library libimage_proc.so[0m
+[ 28%] Built target image_proc
+[ 32%] [32mBuilding CXX object CMakeFiles/rectify.dir/src/rectify.cpp.o[0m
+[ 36%] [32m[1mLinking CXX executable resize_node[0m
+[ 40%] [32m[1mLinking CXX executable debayer_node[0m
+[ 44%] [32m[1mLinking CXX executable rectify_node[0m
+[ 44%] Built target resize_node
+[ 48%] [32m[1mLinking CXX executable crop_non_zero_node[0m
+[ 48%] Built target debayer_node
+[ 48%] Built target crop_non_zero_node
+[ 48%] Built target rectify_node
+[ 52%] [32m[1mLinking CXX executable crop_decimate_node[0m
+[ 52%] Built target crop_decimate_node
+[ 56%] [32m[1mLinking CXX shared library librectify.so[0m
+[ 56%] Built target rectify
+[ 60%] [32mBuilding CXX object CMakeFiles/debayer.dir/src/debayer.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/debayer.dir/src/edge_aware.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library libdebayer.so[0m
+[ 68%] Built target debayer
+[ 72%] [32mBuilding CXX object CMakeFiles/resize.dir/src/resize.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library libresize.so[0m
+[ 76%] Built target resize
+[ 80%] [32mBuilding CXX object CMakeFiles/crop_decimate.dir/src/crop_decimate.cpp.o[0m
+[ 84%] [32m[1mLinking CXX shared library libcrop_decimate.so[0m
+[ 84%] Built target crop_decimate
+[ 88%] [32mBuilding CXX object CMakeFiles/crop_non_zero.dir/src/crop_non_zero.cpp.o[0m
+[ 92%] [32m[1mLinking CXX shared library libcrop_non_zero.so[0m
+[ 92%] Built target crop_non_zero
+[ 96%] [32mBuilding CXX object CMakeFiles/image_proc_exe.dir/src/image_proc.cpp.o[0m
+[100%] [32m[1mLinking CXX executable image_proc[0m
+[100%] Built target image_proc_exe
+-- Install configuration: ""
+-- Up-to-date: /home/wjrgfdy/rm_ws/install/image_proc/include
+-- Up-to-date: /home/wjrgfdy/rm_ws/install/image_proc/include/image_proc
+-- Up-to-date: /home/wjrgfdy/rm_ws/install/image_proc/share/image_proc/launch
+-- Installing: /home/wjrgfdy/rm_ws/install/image_proc/share/image_proc/package.dsv

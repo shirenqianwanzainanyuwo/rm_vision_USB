@@ -1,0 +1,112 @@
+[0.283s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/image_view -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/image_view
+[0.352s] -- The C compiler identification is GNU 11.4.0
+[0.421s] -- The CXX compiler identification is GNU 11.4.0
+[0.439s] -- Detecting C compiler ABI info
+[0.505s] -- Detecting C compiler ABI info - done
+[0.517s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.517s] -- Detecting C compile features
+[0.518s] -- Detecting C compile features - done
+[0.525s] -- Detecting CXX compiler ABI info
+[0.606s] -- Detecting CXX compiler ABI info - done
+[0.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.620s] -- Detecting CXX compile features
+[0.620s] -- Detecting CXX compile features - done
+[0.624s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.963s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.035s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.193s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.200s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.211s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.355s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.359s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.464s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.492s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.553s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.564s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.611s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.613s] -- Found Threads: TRUE  
+[2.280s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[2.284s] -- Found OpenCV: /usr/local (found version "4.9.0") 
+[2.304s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.322s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.323s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.323s] -- Configured cppcheck include dirs: /home/wjrgfdy/rm_ws/src/image_pipeline/image_view/include
+[2.323s] -- Configured cppcheck exclude dirs and/or files: 
+[2.324s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.324s] -- Configured cpplint exclude dirs and/or files: 
+[2.324s] -- Added test 'lint_cmake' to check CMake code style
+[2.325s] -- Added test 'uncrustify' to check C / C++ code style
+[2.325s] -- Configured uncrustify additional arguments: 
+[2.326s] -- Added test 'xmllint' to check XML markup files
+[2.328s] -- Configuring done (2.0s)
+[2.359s] -- Generating done (0.0s)
+[2.361s] -- Build files have been written to: /home/wjrgfdy/rm_ws/build/image_view
+[2.549s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/image_view -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/image_view
+[2.551s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_view -- -j12 -l12
+[2.580s] [ 21%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/video_recorder_node.cpp.o[0m
+[2.581s] [ 21%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/extract_images_node.cpp.o[0m
+[2.581s] [ 26%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/image_saver_node.cpp.o[0m
+[2.581s] [ 26%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/disparity_view_node.cpp.o[0m
+[2.581s] [ 26%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp.o[0m
+[2.581s] [ 31%] [32mBuilding CXX object CMakeFiles/image_view_nodes.dir/src/image_view_node.cpp.o[0m
+[26.042s] [ 36%] [32m[1mLinking CXX shared library libimage_view_nodes.so[0m
+[28.093s] [ 36%] Built target image_view_nodes
+[28.110s] [ 42%] [32mBuilding CXX object CMakeFiles/stereo_view.dir/src/stereo_view.cpp.o[0m
+[28.111s] [ 47%] [32mBuilding CXX object CMakeFiles/disparity_view.dir/src/disparity_view.cpp.o[0m
+[28.111s] [ 57%] [32mBuilding CXX object CMakeFiles/extract_images.dir/src/extract_images.cpp.o[0m
+[28.111s] [ 57%] [32mBuilding CXX object CMakeFiles/image_view.dir/src/image_view.cpp.o[0m
+[28.113s] [ 63%] [32mBuilding CXX object CMakeFiles/video_recorder.dir/src/video_recorder.cpp.o[0m
+[28.115s] [ 68%] [32mBuilding CXX object CMakeFiles/image_saver.dir/src/image_saver.cpp.o[0m
+[33.400s] [ 73%] [32m[1mLinking CXX executable extract_images[0m
+[33.507s] [ 78%] [32m[1mLinking CXX executable image_saver[0m
+[33.748s] [ 84%] [32m[1mLinking CXX executable disparity_view[0m
+[34.079s] [ 89%] [32m[1mLinking CXX executable video_recorder[0m
+[34.312s] [ 94%] [32m[1mLinking CXX executable image_view[0m
+[34.652s] [100%] [32m[1mLinking CXX executable stereo_view[0m
+[35.851s] [100%] Built target extract_images
+[36.085s] [100%] Built target image_saver
+[36.350s] [100%] Built target disparity_view
+[36.672s] [100%] Built target stereo_view
+[36.708s] [100%] Built target image_view
+[36.724s] [100%] Built target video_recorder
+[36.731s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_view -- -j12 -l12
+[36.824s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_view
+[36.828s] -- Install configuration: ""
+[36.829s] -- Execute custom install script
+[36.830s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/include/image_view/disparity_view_node.hpp
+[36.834s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/include/image_view/extract_images_node.hpp
+[36.839s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/include/image_view/image_saver_node.hpp
+[36.844s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/include/image_view/image_view_node.hpp
+[36.849s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/include/image_view/stereo_view_node.hpp
+[36.853s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/include/image_view/video_recorder_node.hpp
+[36.858s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/environment/library_path.sh
+[36.863s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/environment/library_path.dsv
+[36.868s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/lib/libimage_view_nodes.so
+[36.873s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/lib/image_view/disparity_view
+[36.877s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/lib/image_view/image_view
+[36.882s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/lib/image_view/stereo_view
+[36.887s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/lib/image_view/extract_images
+[36.891s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/lib/image_view/image_saver
+[36.896s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/lib/image_view/video_recorder
+[36.901s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/ament_index/resource_index/package_run_dependencies/image_view
+[36.906s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/ament_index/resource_index/parent_prefix_path/image_view
+[36.910s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/environment/ament_prefix_path.sh
+[36.915s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/environment/ament_prefix_path.dsv
+[36.919s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/environment/path.sh
+[36.924s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/environment/path.dsv
+[36.929s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/local_setup.bash
+[36.934s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/local_setup.sh
+[36.939s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/local_setup.zsh
+[36.944s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/local_setup.dsv
+[36.949s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/package.dsv
+[36.954s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/ament_index/resource_index/packages/image_view
+[36.958s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/ament_index/resource_index/rclcpp_components/image_view
+[36.963s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.968s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.973s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/cmake/ament_cmake_export_libraries-extras.cmake
+[36.977s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/cmake/image_viewConfig.cmake
+[36.982s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/cmake/image_viewConfig-version.cmake
+[36.987s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/package.xml
+[36.994s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_view

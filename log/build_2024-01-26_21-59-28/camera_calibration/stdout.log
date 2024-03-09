@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing src/camera_calibration.egg-info/PKG-INFO
+writing dependency_links to src/camera_calibration.egg-info/dependency_links.txt
+writing entry points to src/camera_calibration.egg-info/entry_points.txt
+writing requirements to src/camera_calibration.egg-info/requires.txt
+writing top-level names to src/camera_calibration.egg-info/top_level.txt
+reading manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+writing manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wjrgfdy/rm_ws/install/camera_calibration/lib/python3.10/site-packages/camera-calibration.egg-link (link to src)
+Installing cameracalibrator script to /home/wjrgfdy/rm_ws/install/camera_calibration/lib/camera_calibration
+Installing cameracheck script to /home/wjrgfdy/rm_ws/install/camera_calibration/lib/camera_calibration
+
+Installed /home/wjrgfdy/rm_ws/build/camera_calibration/src
+running install_data

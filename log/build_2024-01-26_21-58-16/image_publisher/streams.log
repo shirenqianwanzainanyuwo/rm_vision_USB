@@ -1,0 +1,90 @@
+[0.354s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/image_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/image_publisher
+[0.430s] -- The C compiler identification is GNU 11.4.0
+[0.499s] -- The CXX compiler identification is GNU 11.4.0
+[0.517s] -- Detecting C compiler ABI info
+[0.574s] -- Detecting C compiler ABI info - done
+[0.582s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.582s] -- Detecting C compile features
+[0.582s] -- Detecting C compile features - done
+[0.590s] -- Detecting CXX compiler ABI info
+[0.656s] -- Detecting CXX compiler ABI info - done
+[0.663s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.664s] -- Detecting CXX compile features
+[0.665s] -- Detecting CXX compile features - done
+[0.668s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.016s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.139s] -- Found camera_info_manager: 3.1.7 (/opt/ros/humble/share/camera_info_manager/cmake)
+[1.214s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.223s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.237s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.288s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.356s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.360s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.462s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.498s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.556s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.572s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.646s] -- Found Threads: TRUE  
+[2.086s] -- Found OpenCV: /usr/local (found version "4.9.0") found components: core imgcodecs videoio 
+[2.087s] -- opencv version 4.9.0
+[2.091s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.109s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.110s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.110s] -- Configured cppcheck include dirs: /home/wjrgfdy/rm_ws/src/image_pipeline/image_publisher/include
+[2.110s] -- Configured cppcheck exclude dirs and/or files: 
+[2.111s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.111s] -- Configured cpplint exclude dirs and/or files: 
+[2.112s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.113s] -- Added test 'lint_cmake' to check CMake code style
+[2.113s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.113s] -- Added test 'uncrustify' to check C / C++ code style
+[2.113s] -- Configured uncrustify additional arguments: 
+[2.113s] -- Added test 'xmllint' to check XML markup files
+[2.116s] -- Configuring done (1.8s)
+[2.128s] -- Generating done (0.0s)
+[2.130s] -- Build files have been written to: /home/wjrgfdy/rm_ws/build/image_publisher
+[2.625s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/image_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/image_publisher
+[2.626s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_publisher -- -j12 -l12
+[2.650s] [ 25%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[15.238s] [ 50%] [32m[1mLinking CXX shared library libimage_publisher.so[0m
+[15.849s] [ 50%] Built target image_publisher
+[15.966s] [ 75%] [32mBuilding CXX object CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o[0m
+[23.717s] [100%] [32m[1mLinking CXX executable image_publisher_node[0m
+[24.876s] [100%] Built target image_publisher_node
+[24.892s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_publisher -- -j12 -l12
+[25.040s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_publisher
+[25.050s] -- Install configuration: ""
+[25.050s] -- Execute custom install script
+[25.050s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/include/image_publisher/image_publisher.hpp
+[25.067s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/include/image_publisher/visibility.h
+[25.075s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/environment/library_path.sh
+[25.096s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/environment/library_path.dsv
+[25.113s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/lib/libimage_publisher.so
+[25.132s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/lib/image_publisher/image_publisher_node
+[25.151s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py
+[25.166s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py
+[25.183s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py
+[25.204s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/launch/splash.png
+[25.221s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/ament_index/resource_index/package_run_dependencies/image_publisher
+[25.238s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/ament_index/resource_index/parent_prefix_path/image_publisher
+[25.255s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.sh
+[25.273s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.dsv
+[25.288s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/environment/path.sh
+[25.304s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/environment/path.dsv
+[25.323s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/local_setup.bash
+[25.343s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/local_setup.sh
+[25.361s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/local_setup.zsh
+[25.375s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/local_setup.dsv
+[25.390s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/package.dsv
+[25.411s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/ament_index/resource_index/packages/image_publisher
+[25.430s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/ament_index/resource_index/rclcpp_components/image_publisher
+[25.449s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.467s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.487s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+[25.499s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake
+[25.505s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake
+[25.512s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/package.xml
+[25.529s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_publisher

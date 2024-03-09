@@ -1,0 +1,37 @@
+[0.824s] Invoking command in '/home/wjrgfdy/rm_ws/src/image_pipeline/camera_calibration': PYTHONPATH=/home/wjrgfdy/rm_ws/build/camera_calibration/prefix_override:/home/wjrgfdy/rm_ws/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/camera_calibration build --build-base /home/wjrgfdy/rm_ws/build/camera_calibration/build install --record /home/wjrgfdy/rm_ws/build/camera_calibration/install.log --single-version-externally-managed
+[0.976s] running egg_info
+[0.977s] creating ../../../build/camera_calibration/camera_calibration.egg-info
+[0.977s] writing ../../../build/camera_calibration/camera_calibration.egg-info/PKG-INFO
+[0.977s] writing dependency_links to ../../../build/camera_calibration/camera_calibration.egg-info/dependency_links.txt
+[0.977s] writing entry points to ../../../build/camera_calibration/camera_calibration.egg-info/entry_points.txt
+[0.977s] writing requirements to ../../../build/camera_calibration/camera_calibration.egg-info/requires.txt
+[0.977s] writing top-level names to ../../../build/camera_calibration/camera_calibration.egg-info/top_level.txt
+[0.977s] writing manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[0.979s] reading manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[0.979s] writing manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[0.979s] running build
+[0.979s] running build_py
+[0.979s] creating /home/wjrgfdy/rm_ws/build/camera_calibration/build
+[0.980s] creating /home/wjrgfdy/rm_ws/build/camera_calibration/build/lib
+[0.980s] creating /home/wjrgfdy/rm_ws/build/camera_calibration/build/lib/camera_calibration
+[0.980s] copying src/camera_calibration/camera_checker.py -> /home/wjrgfdy/rm_ws/build/camera_calibration/build/lib/camera_calibration
+[0.980s] copying src/camera_calibration/camera_calibrator.py -> /home/wjrgfdy/rm_ws/build/camera_calibration/build/lib/camera_calibration
+[0.980s] copying src/camera_calibration/__init__.py -> /home/wjrgfdy/rm_ws/build/camera_calibration/build/lib/camera_calibration
+[0.980s] copying src/camera_calibration/calibrator.py -> /home/wjrgfdy/rm_ws/build/camera_calibration/build/lib/camera_calibration
+[0.980s] creating /home/wjrgfdy/rm_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.980s] copying src/camera_calibration/nodes/cameracalibrator.py -> /home/wjrgfdy/rm_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.980s] copying src/camera_calibration/nodes/__init__.py -> /home/wjrgfdy/rm_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.980s] copying src/camera_calibration/nodes/cameracheck.py -> /home/wjrgfdy/rm_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.980s] running install
+[0.981s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.981s]   warnings.warn(
+[0.981s] running install_lib
+[0.982s] running install_data
+[0.983s] running install_egg_info
+[0.984s] removing '/home/wjrgfdy/rm_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-3.0.3-py3.10.egg-info' (and everything under it)
+[0.984s] Copying ../../../build/camera_calibration/camera_calibration.egg-info to /home/wjrgfdy/rm_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-3.0.3-py3.10.egg-info
+[0.984s] running install_scripts
+[1.002s] Installing cameracalibrator script to /home/wjrgfdy/rm_ws/install/camera_calibration/lib/camera_calibration
+[1.002s] Installing cameracheck script to /home/wjrgfdy/rm_ws/install/camera_calibration/lib/camera_calibration
+[1.002s] writing list of installed files to '/home/wjrgfdy/rm_ws/build/camera_calibration/install.log'
+[1.032s] Invoked command in '/home/wjrgfdy/rm_ws/src/image_pipeline/camera_calibration' returned '0': PYTHONPATH=/home/wjrgfdy/rm_ws/build/camera_calibration/prefix_override:/home/wjrgfdy/rm_ws/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/camera_calibration build --build-base /home/wjrgfdy/rm_ws/build/camera_calibration/build install --record /home/wjrgfdy/rm_ws/build/camera_calibration/install.log --single-version-externally-managed

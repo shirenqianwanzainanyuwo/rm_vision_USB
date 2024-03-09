@@ -1,0 +1,44 @@
+[ 26%] Built target gtest_main
+[ 26%] Built target gtest
+[ 40%] Built target armor_detector_node
+[ 46%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector_node.cpp.o[0m
+[ 53%] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[ 73%] Built target armor_detector
+[ 86%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable test_number_cls[0m
+[ 93%] Built target test_number_cls
+[100%] [32m[1mLinking CXX executable test_node_startup[0m
+[100%] Built target test_node_startup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/lib/armor_detector/armor_detector_node
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/include/armor_detector/armor.hpp
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/include/armor_detector/detector.hpp
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/include/armor_detector/detector_node.hpp
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/include/armor_detector/number_classifier.hpp
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/include/armor_detector/pnp_solver.hpp
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/environment/library_path.sh
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/environment/library_path.dsv
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/lib/libarmor_detector.so
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/model/label.txt
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/model/mlp.onnx
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/environment/path.sh
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/environment/path.dsv
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/local_setup.bash
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/local_setup.sh
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/local_setup.zsh
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/local_setup.dsv
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/package.dsv
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+-- Symlinking: /home/wjrgfdy/rm_ws/install/armor_detector/share/armor_detector/package.xml

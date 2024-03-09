@@ -1,0 +1,74 @@
+[0.071s] Invoking command in '/home/wjrgfdy/rm_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/rm_auto_aim/armor_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/armor_detector
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.138s] -- The CXX compiler identification is GNU 11.4.0
+[0.151s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.217s] -- Detecting CXX compiler ABI info
+[0.269s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.281s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.284s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.633s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.697s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.722s] -- Found OpenCV: /usr/local (found version "4.9.0") 
+[0.791s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.794s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.800s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.873s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.875s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.941s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.962s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.997s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.003s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.044s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.046s] -- Found Threads: TRUE  
+[1.661s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.662s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.663s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.870s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.881s] -- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.884s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.894s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.894s] -- Configured cppcheck include dirs: /home/wjrgfdy/rm_ws/src/rm_auto_aim/armor_detector/include
+[1.894s] -- Configured cppcheck exclude dirs and/or files: 
+[1.894s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.895s] -- Added test 'lint_cmake' to check CMake code style
+[1.895s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.896s] -- Added test 'xmllint' to check XML markup files
+[1.897s] -- Added test 'clang_format' to check C / C++ code style
+[1.899s] -- Configuring done (1.8s)
+[1.922s] -- Generating done (0.0s)
+[1.924s] -- Build files have been written to: /home/wjrgfdy/rm_ws/build/armor_detector
+[1.934s] Invoked command in '/home/wjrgfdy/rm_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/rm_auto_aim/armor_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/armor_detector
+[1.935s] Invoking command in '/home/wjrgfdy/rm_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/armor_detector -- -j12 -l12
+[1.958s] [  6%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector.cpp.o[0m
+[1.958s] [ 20%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o[0m
+[1.958s] [ 20%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o[0m
+[1.959s] [ 26%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector_node.cpp.o[0m
+[1.960s] [ 33%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[1.961s] [ 40%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.961s] [ 46%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.760s] [ 53%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.818s] [ 53%] Built target gtest_main
+[5.977s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.015s] [ 60%] Built target gtest
+[6.291s] [ 66%] [32m[1mLinking CXX executable armor_detector_node[0m
+[6.437s] [ 66%] Built target armor_detector_node
+[7.324s] [01m[K/home/wjrgfdy/rm_ws/src/rm_auto_aim/armor_detector/src/detector_node.cpp:[m[K In member function ‘[01m[Kstd::unique_ptr<rm_auto_aim::Detector> rm_auto_aim::ArmorDetectorNode::initDetector()[m[K’:
+[7.325s] [01m[K/home/wjrgfdy/rm_ws/src/rm_auto_aim/armor_detector/src/detector_node.cpp:170:52:[m[K [01;31m[Kerror: [m[K‘[01m[Karam_desc[m[K’ was not declared in this scope; did you mean ‘[01m[Kparam_desc[m[K’?
+[7.325s]   170 |         param_desc.integer_range[0].to_value = 255;[01;31m[Karam_desc[m[K);
+[7.325s]       |                                                    [01;31m[K^~~~~~~~~[m[K
+[7.325s]       |                                                    [32m[Kparam_desc[m[K
+[7.331s] [01m[K/home/wjrgfdy/rm_ws/src/rm_auto_aim/armor_detector/src/detector_node.cpp:172:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+[7.332s]   172 |         int binary_thres = declare_parameter("binary_thres", 160, [01;31m[Kp[m[K
+[7.332s]       |                                                                   [01;31m[K^[m[K
+[12.748s] gmake[2]: *** [CMakeFiles/armor_detector.dir/build.make:90：CMakeFiles/armor_detector.dir/src/detector_node.cpp.o] 错误 1
+[12.748s] gmake[1]: *** [CMakeFiles/Makefile2:161：CMakeFiles/armor_detector.dir/all] 错误 2
+[12.748s] gmake: *** [Makefile:146：all] 错误 2
+[12.790s] Invoked command in '/home/wjrgfdy/rm_ws/build/armor_detector' returned '2': AMENT_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/armor_detector -- -j12 -l12

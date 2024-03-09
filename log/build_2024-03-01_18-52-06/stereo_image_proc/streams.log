@@ -1,0 +1,97 @@
+[0.092s] Invoking command in '/home/wjrgfdy/rm_ws/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/image_proc:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/image_proc:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline:/home/wjrgfdy/rm_ws/install/image_pipeline:/home/wjrgfdy/rm_ws/install/stereo_image_proc:/home/wjrgfdy/rm_ws/install/rm_vision_bringup:/home/wjrgfdy/rm_ws/install/rm_serial_driver:/home/wjrgfdy/rm_ws/install/rm_gimbal_description:/home/wjrgfdy/rm_ws/install/rm_auto_aim:/home/wjrgfdy/rm_ws/install/mindvision_camera:/home/wjrgfdy/rm_ws/install/image_view:/home/wjrgfdy/rm_ws/install/image_rotate:/home/wjrgfdy/rm_ws/install/image_publisher:/home/wjrgfdy/rm_ws/install/hik_camera:/home/wjrgfdy/rm_ws/install/depth_image_proc:/home/wjrgfdy/rm_ws/install/armor_tracker:/home/wjrgfdy/rm_ws/install/armor_detector:/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/wjrgfdy/rm_ws/install/image_proc/lib:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/lib:/home/wjrgfdy/rm_ws/install/stereo_image_proc/lib:/home/wjrgfdy/rm_ws/install/rm_serial_driver/lib:/home/wjrgfdy/rm_ws/install/mindvision_camera/lib:/home/wjrgfdy/rm_ws/install/image_view/lib:/home/wjrgfdy/rm_ws/install/image_rotate/lib:/home/wjrgfdy/rm_ws/install/image_publisher/lib:/home/wjrgfdy/rm_ws/install/hik_camera/lib:/home/wjrgfdy/rm_ws/install/depth_image_proc/lib:/home/wjrgfdy/rm_ws/install/armor_tracker/lib:/home/wjrgfdy/rm_ws/install/armor_detector/lib:/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/stereo_image_proc -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/stereo_image_proc
+[0.150s] -- The C compiler identification is GNU 12.3.0
+[0.223s] -- The CXX compiler identification is GNU 12.3.0
+[0.246s] -- Detecting C compiler ABI info
+[0.326s] -- Detecting C compiler ABI info - done
+[0.340s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.340s] -- Detecting C compile features
+[0.340s] -- Detecting C compile features - done
+[0.351s] -- Detecting CXX compiler ABI info
+[0.443s] -- Detecting CXX compiler ABI info - done
+[0.458s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.458s] -- Detecting CXX compile features
+[0.459s] -- Detecting CXX compile features - done
+[0.462s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.921s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.201s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.210s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.224s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.729s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.734s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.873s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.919s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.989s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.007s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.096s] -- Found Threads: TRUE  
+[2.731s] -- Found OpenCV: /usr/local (found version "4.9.0") 
+[2.855s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.946s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.947s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.947s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.947s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.947s]   the cmake_policy command to set the policy and suppress this warning.
+[2.947s] 
+[2.947s] Call Stack (most recent call first):
+[2.947s]   /opt/ros/humble/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)
+[2.947s]   /opt/ros/humble/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)
+[2.948s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:36 (find_package)
+[2.948s]   CMakeLists.txt:41 (ament_lint_auto_find_test_dependencies)
+[2.948s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.948s] [0m
+[2.978s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.978s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.978s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.978s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.978s]   the cmake_policy command to set the policy and suppress this warning.
+[2.978s] 
+[2.979s] Call Stack (most recent call first):
+[2.979s]   /opt/ros/humble/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)
+[2.979s]   /opt/ros/humble/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)
+[2.979s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:36 (find_package)
+[2.979s]   CMakeLists.txt:41 (ament_lint_auto_find_test_dependencies)
+[2.979s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.979s] [0m
+[2.990s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.991s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.991s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.991s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.024s] -- Found PythonExtra: .so  
+[4.075s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.078s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.078s] -- Configured cppcheck include dirs: /home/wjrgfdy/rm_ws/src/image_pipeline/stereo_image_proc/include
+[4.078s] -- Configured cppcheck exclude dirs and/or files: 
+[4.081s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.081s] -- Configured cpplint exclude dirs and/or files: 
+[4.082s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.083s] -- Added test 'lint_cmake' to check CMake code style
+[4.084s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.087s] -- Added test 'uncrustify' to check C / C++ code style
+[4.087s] -- Configured uncrustify additional arguments: 
+[4.088s] -- Added test 'xmllint' to check XML markup files
+[4.092s] -- Configuring done (4.0s)
+[4.131s] -- Generating done (0.0s)
+[4.134s] -- Build files have been written to: /home/wjrgfdy/rm_ws/build/stereo_image_proc
+[4.149s] Invoked command in '/home/wjrgfdy/rm_ws/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/image_proc:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/image_proc:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline:/home/wjrgfdy/rm_ws/install/image_pipeline:/home/wjrgfdy/rm_ws/install/stereo_image_proc:/home/wjrgfdy/rm_ws/install/rm_vision_bringup:/home/wjrgfdy/rm_ws/install/rm_serial_driver:/home/wjrgfdy/rm_ws/install/rm_gimbal_description:/home/wjrgfdy/rm_ws/install/rm_auto_aim:/home/wjrgfdy/rm_ws/install/mindvision_camera:/home/wjrgfdy/rm_ws/install/image_view:/home/wjrgfdy/rm_ws/install/image_rotate:/home/wjrgfdy/rm_ws/install/image_publisher:/home/wjrgfdy/rm_ws/install/hik_camera:/home/wjrgfdy/rm_ws/install/depth_image_proc:/home/wjrgfdy/rm_ws/install/armor_tracker:/home/wjrgfdy/rm_ws/install/armor_detector:/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/wjrgfdy/rm_ws/install/image_proc/lib:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/lib:/home/wjrgfdy/rm_ws/install/stereo_image_proc/lib:/home/wjrgfdy/rm_ws/install/rm_serial_driver/lib:/home/wjrgfdy/rm_ws/install/mindvision_camera/lib:/home/wjrgfdy/rm_ws/install/image_view/lib:/home/wjrgfdy/rm_ws/install/image_rotate/lib:/home/wjrgfdy/rm_ws/install/image_publisher/lib:/home/wjrgfdy/rm_ws/install/hik_camera/lib:/home/wjrgfdy/rm_ws/install/depth_image_proc/lib:/home/wjrgfdy/rm_ws/install/armor_tracker/lib:/home/wjrgfdy/rm_ws/install/armor_detector/lib:/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/stereo_image_proc -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/stereo_image_proc
+[4.151s] Invoking command in '/home/wjrgfdy/rm_ws/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/image_proc:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/image_proc:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline:/home/wjrgfdy/rm_ws/install/image_pipeline:/home/wjrgfdy/rm_ws/install/stereo_image_proc:/home/wjrgfdy/rm_ws/install/rm_vision_bringup:/home/wjrgfdy/rm_ws/install/rm_serial_driver:/home/wjrgfdy/rm_ws/install/rm_gimbal_description:/home/wjrgfdy/rm_ws/install/rm_auto_aim:/home/wjrgfdy/rm_ws/install/mindvision_camera:/home/wjrgfdy/rm_ws/install/image_view:/home/wjrgfdy/rm_ws/install/image_rotate:/home/wjrgfdy/rm_ws/install/image_publisher:/home/wjrgfdy/rm_ws/install/hik_camera:/home/wjrgfdy/rm_ws/install/depth_image_proc:/home/wjrgfdy/rm_ws/install/armor_tracker:/home/wjrgfdy/rm_ws/install/armor_detector:/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/wjrgfdy/rm_ws/install/image_proc/lib:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/lib:/home/wjrgfdy/rm_ws/install/stereo_image_proc/lib:/home/wjrgfdy/rm_ws/install/rm_serial_driver/lib:/home/wjrgfdy/rm_ws/install/mindvision_camera/lib:/home/wjrgfdy/rm_ws/install/image_view/lib:/home/wjrgfdy/rm_ws/install/image_rotate/lib:/home/wjrgfdy/rm_ws/install/image_publisher/lib:/home/wjrgfdy/rm_ws/install/hik_camera/lib:/home/wjrgfdy/rm_ws/install/depth_image_proc/lib:/home/wjrgfdy/rm_ws/install/armor_tracker/lib:/home/wjrgfdy/rm_ws/install/armor_detector/lib:/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/stereo_image_proc -- -j12 -l12
+[4.192s] [ 62%] [32mBuilding CXX object CMakeFiles/stereo_image_proc.dir/src/stereo_image_proc/disparity_node.cpp.o[0m
+[4.192s] [ 62%] [32mBuilding CXX object CMakeFiles/stereo_image_proc.dir/src/stereo_image_proc/stereo_processor.cpp.o[0m
+[4.192s] [ 62%] [32mBuilding CXX object CMakeFiles/point_cloud_node.dir/rclcpp_components/node_main_point_cloud_node.cpp.o[0m
+[4.192s] [ 62%] [32mBuilding CXX object CMakeFiles/disparity_node.dir/rclcpp_components/node_main_disparity_node.cpp.o[0m
+[4.192s] [ 62%] [32mBuilding CXX object CMakeFiles/stereo_image_proc.dir/src/stereo_image_proc/point_cloud_node.cpp.o[0m
+[9.350s] [ 75%] [32m[1mLinking CXX executable point_cloud_node[0m
+[9.488s] [ 75%] Built target point_cloud_node
+[9.915s] [ 87%] [32m[1mLinking CXX executable disparity_node[0m
+[10.088s] [ 87%] Built target disparity_node
+[24.350s] [100%] [32m[1mLinking CXX shared library libstereo_image_proc.so[0m
+[25.287s] [100%] Built target stereo_image_proc
+[25.294s] Invoked command in '/home/wjrgfdy/rm_ws/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/image_proc:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/image_proc:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline:/home/wjrgfdy/rm_ws/install/image_pipeline:/home/wjrgfdy/rm_ws/install/stereo_image_proc:/home/wjrgfdy/rm_ws/install/rm_vision_bringup:/home/wjrgfdy/rm_ws/install/rm_serial_driver:/home/wjrgfdy/rm_ws/install/rm_gimbal_description:/home/wjrgfdy/rm_ws/install/rm_auto_aim:/home/wjrgfdy/rm_ws/install/mindvision_camera:/home/wjrgfdy/rm_ws/install/image_view:/home/wjrgfdy/rm_ws/install/image_rotate:/home/wjrgfdy/rm_ws/install/image_publisher:/home/wjrgfdy/rm_ws/install/hik_camera:/home/wjrgfdy/rm_ws/install/depth_image_proc:/home/wjrgfdy/rm_ws/install/armor_tracker:/home/wjrgfdy/rm_ws/install/armor_detector:/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/wjrgfdy/rm_ws/install/image_proc/lib:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/lib:/home/wjrgfdy/rm_ws/install/stereo_image_proc/lib:/home/wjrgfdy/rm_ws/install/rm_serial_driver/lib:/home/wjrgfdy/rm_ws/install/mindvision_camera/lib:/home/wjrgfdy/rm_ws/install/image_view/lib:/home/wjrgfdy/rm_ws/install/image_rotate/lib:/home/wjrgfdy/rm_ws/install/image_publisher/lib:/home/wjrgfdy/rm_ws/install/hik_camera/lib:/home/wjrgfdy/rm_ws/install/depth_image_proc/lib:/home/wjrgfdy/rm_ws/install/armor_tracker/lib:/home/wjrgfdy/rm_ws/install/armor_detector/lib:/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/stereo_image_proc -- -j12 -l12
+[25.326s] Invoking command in '/home/wjrgfdy/rm_ws/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/image_proc:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/image_proc:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline:/home/wjrgfdy/rm_ws/install/image_pipeline:/home/wjrgfdy/rm_ws/install/stereo_image_proc:/home/wjrgfdy/rm_ws/install/rm_vision_bringup:/home/wjrgfdy/rm_ws/install/rm_serial_driver:/home/wjrgfdy/rm_ws/install/rm_gimbal_description:/home/wjrgfdy/rm_ws/install/rm_auto_aim:/home/wjrgfdy/rm_ws/install/mindvision_camera:/home/wjrgfdy/rm_ws/install/image_view:/home/wjrgfdy/rm_ws/install/image_rotate:/home/wjrgfdy/rm_ws/install/image_publisher:/home/wjrgfdy/rm_ws/install/hik_camera:/home/wjrgfdy/rm_ws/install/depth_image_proc:/home/wjrgfdy/rm_ws/install/armor_tracker:/home/wjrgfdy/rm_ws/install/armor_detector:/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/wjrgfdy/rm_ws/install/image_proc/lib:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/lib:/home/wjrgfdy/rm_ws/install/stereo_image_proc/lib:/home/wjrgfdy/rm_ws/install/rm_serial_driver/lib:/home/wjrgfdy/rm_ws/install/mindvision_camera/lib:/home/wjrgfdy/rm_ws/install/image_view/lib:/home/wjrgfdy/rm_ws/install/image_rotate/lib:/home/wjrgfdy/rm_ws/install/image_publisher/lib:/home/wjrgfdy/rm_ws/install/hik_camera/lib:/home/wjrgfdy/rm_ws/install/depth_image_proc/lib:/home/wjrgfdy/rm_ws/install/armor_tracker/lib:/home/wjrgfdy/rm_ws/install/armor_detector/lib:/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/stereo_image_proc
+[25.329s] -- Install configuration: ""
+[25.329s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/stereo_image_proc/include
+[25.329s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/stereo_image_proc/include/stereo_image_proc
+[25.329s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/stereo_image_proc/share/stereo_image_proc/launch
+[25.329s] -- Installing: /home/wjrgfdy/rm_ws/install/stereo_image_proc/share/stereo_image_proc/package.dsv
+[25.330s] Invoked command in '/home/wjrgfdy/rm_ws/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/image_proc:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wjrgfdy/rm_ws/install/image_proc:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline:/home/wjrgfdy/rm_ws/install/image_pipeline:/home/wjrgfdy/rm_ws/install/stereo_image_proc:/home/wjrgfdy/rm_ws/install/rm_vision_bringup:/home/wjrgfdy/rm_ws/install/rm_serial_driver:/home/wjrgfdy/rm_ws/install/rm_gimbal_description:/home/wjrgfdy/rm_ws/install/rm_auto_aim:/home/wjrgfdy/rm_ws/install/mindvision_camera:/home/wjrgfdy/rm_ws/install/image_view:/home/wjrgfdy/rm_ws/install/image_rotate:/home/wjrgfdy/rm_ws/install/image_publisher:/home/wjrgfdy/rm_ws/install/hik_camera:/home/wjrgfdy/rm_ws/install/depth_image_proc:/home/wjrgfdy/rm_ws/install/armor_tracker:/home/wjrgfdy/rm_ws/install/armor_detector:/home/wjrgfdy/rm_ws/install/auto_aim_interfaces:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/wjrgfdy/rm_ws/install/image_proc/lib:/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/lib:/home/wjrgfdy/rm_ws/install/stereo_image_proc/lib:/home/wjrgfdy/rm_ws/install/rm_serial_driver/lib:/home/wjrgfdy/rm_ws/install/mindvision_camera/lib:/home/wjrgfdy/rm_ws/install/image_view/lib:/home/wjrgfdy/rm_ws/install/image_rotate/lib:/home/wjrgfdy/rm_ws/install/image_publisher/lib:/home/wjrgfdy/rm_ws/install/hik_camera/lib:/home/wjrgfdy/rm_ws/install/depth_image_proc/lib:/home/wjrgfdy/rm_ws/install/armor_tracker/lib:/home/wjrgfdy/rm_ws/install/armor_detector/lib:/home/wjrgfdy/rm_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/stereo_image_proc

@@ -1,0 +1,63 @@
+[0.307s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/image_publisher -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/image_publisher
+[0.361s] -- The C compiler identification is GNU 12.3.0
+[0.432s] -- The CXX compiler identification is GNU 12.3.0
+[0.447s] -- Detecting C compiler ABI info
+[0.505s] -- Detecting C compiler ABI info - done
+[0.518s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.519s] -- Detecting C compile features
+[0.519s] -- Detecting C compile features - done
+[0.529s] -- Detecting CXX compiler ABI info
+[0.596s] -- Detecting CXX compiler ABI info - done
+[0.610s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.610s] -- Detecting CXX compile features
+[0.611s] -- Detecting CXX compile features - done
+[0.615s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.016s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.134s] -- Found camera_info_manager: 3.1.7 (/opt/ros/humble/share/camera_info_manager/cmake)
+[1.202s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.207s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.218s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.336s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.340s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.437s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.469s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.514s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.527s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.604s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.605s] -- Found Threads: TRUE  
+[2.069s] -- Found OpenCV: /usr/local (found version "4.9.0") found components: core imgcodecs videoio 
+[2.069s] -- opencv version 4.9.0
+[2.073s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.093s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.094s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.094s] -- Configured cppcheck include dirs: /home/wjrgfdy/rm_ws/src/image_pipeline/image_publisher/include
+[2.094s] -- Configured cppcheck exclude dirs and/or files: 
+[2.095s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.095s] -- Configured cpplint exclude dirs and/or files: 
+[2.096s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.096s] -- Added test 'lint_cmake' to check CMake code style
+[2.097s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.097s] -- Added test 'uncrustify' to check C / C++ code style
+[2.097s] -- Configured uncrustify additional arguments: 
+[2.098s] -- Added test 'xmllint' to check XML markup files
+[2.100s] -- Configuring done (1.8s)
+[2.112s] -- Generating done (0.0s)
+[2.113s] -- Build files have been written to: /home/wjrgfdy/rm_ws/build/image_publisher
+[2.121s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/image_publisher -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/image_publisher
+[2.123s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_publisher -- -j12 -l12
+[2.156s] [ 25%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[20.224s] [ 50%] [32m[1mLinking CXX shared library libimage_publisher.so[0m
+[20.912s] [ 50%] Built target image_publisher
+[21.013s] [ 75%] [32mBuilding CXX object CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o[0m
+[28.051s] [100%] [32m[1mLinking CXX executable image_publisher_node[0m
+[29.251s] [100%] Built target image_publisher_node
+[29.275s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_publisher -- -j12 -l12
+[29.540s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_publisher
+[29.552s] -- Install configuration: ""
+[29.552s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/image_publisher/include
+[29.552s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/image_publisher/include/image_publisher
+[29.552s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/launch
+[29.553s] -- Installing: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/package.dsv
+[29.554s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_publisher

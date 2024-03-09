@@ -1,0 +1,29 @@
+[0.242s] Invoking command in '/home/wjrgfdy/rm_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/rm_gimbal_description -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/rm_gimbal_description
+[0.295s] -- The C compiler identification is GNU 12.3.0
+[0.366s] -- The CXX compiler identification is GNU 12.3.0
+[0.388s] -- Detecting C compiler ABI info
+[0.445s] -- Detecting C compiler ABI info - done
+[0.458s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.458s] -- Detecting C compile features
+[0.458s] -- Detecting C compile features - done
+[0.468s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.570s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.571s] -- Detecting CXX compile features
+[0.571s] -- Detecting CXX compile features - done
+[0.575s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.934s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.046s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.152s] -- Added test 'lint_cmake' to check CMake code style
+[1.154s] -- Added test 'xmllint' to check XML markup files
+[1.156s] -- Configuring done (0.9s)
+[1.159s] -- Generating done (0.0s)
+[1.160s] -- Build files have been written to: /home/wjrgfdy/rm_ws/build/rm_gimbal_description
+[1.164s] Invoked command in '/home/wjrgfdy/rm_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/rm_gimbal_description -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/rm_gimbal_description
+[1.167s] Invoking command in '/home/wjrgfdy/rm_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/rm_gimbal_description -- -j12 -l12
+[1.186s] Invoked command in '/home/wjrgfdy/rm_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/rm_gimbal_description -- -j12 -l12
+[1.216s] Invoking command in '/home/wjrgfdy/rm_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/rm_gimbal_description
+[1.362s] -- Install configuration: ""
+[1.363s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/urdf
+[1.363s] -- Installing: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv
+[1.364s] Invoked command in '/home/wjrgfdy/rm_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/rm_gimbal_description

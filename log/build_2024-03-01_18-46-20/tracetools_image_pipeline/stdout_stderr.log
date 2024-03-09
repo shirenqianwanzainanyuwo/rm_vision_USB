@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'lttng-ust'
+--   No package 'lttng-ust' found
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wjrgfdy/rm_ws/build/tracetools_image_pipeline
+[ 20%] [32mBuilding C object CMakeFiles/tracetools_image_pipeline.dir/src/tracetools.c.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/tracetools_image_pipeline.dir/src/utils.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libtracetools_image_pipeline.so[0m
+[ 60%] Built target tracetools_image_pipeline
+[ 80%] [32mBuilding C object CMakeFiles/status.dir/src/status.c.o[0m
+[100%] [32m[1mLinking C executable status[0m
+[100%] Built target status
+-- Install configuration: ""
+-- Up-to-date: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/include
+-- Up-to-date: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline
+-- Installing: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/lib/libtracetools_image_pipeline.so
+-- Installing: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv
+-- Installing: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport.cmake
+-- Installing: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport-noconfig.cmake

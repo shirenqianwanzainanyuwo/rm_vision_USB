@@ -1,0 +1,47 @@
+[1.034s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_view -- -j12 -l12
+[1.143s] [ 36%] Built target image_view_nodes
+[1.225s] [ 47%] Built target disparity_view
+[1.298s] [ 57%] Built target video_recorder
+[1.356s] [ 68%] Built target image_saver
+[1.454s] [ 78%] Built target extract_images
+[1.526s] [ 89%] Built target stereo_view
+[1.595s] [100%] Built target image_view
+[1.890s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_view -- -j12 -l12
+[2.298s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_view
+[2.303s] -- Install configuration: ""
+[2.305s] -- Execute custom install script
+[2.305s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/include/image_view/disparity_view_node.hpp
+[2.305s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/include/image_view/extract_images_node.hpp
+[2.306s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/include/image_view/image_saver_node.hpp
+[2.307s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/include/image_view/image_view_node.hpp
+[2.307s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/include/image_view/stereo_view_node.hpp
+[2.307s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/include/image_view/video_recorder_node.hpp
+[2.307s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/environment/library_path.sh
+[2.309s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/environment/library_path.dsv
+[2.309s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/lib/libimage_view_nodes.so
+[2.310s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/lib/image_view/disparity_view
+[2.311s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/lib/image_view/image_view
+[2.312s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/lib/image_view/stereo_view
+[2.312s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/lib/image_view/extract_images
+[2.312s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/lib/image_view/image_saver
+[2.312s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/lib/image_view/video_recorder
+[2.313s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/ament_index/resource_index/package_run_dependencies/image_view
+[2.313s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/ament_index/resource_index/parent_prefix_path/image_view
+[2.313s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/environment/ament_prefix_path.sh
+[2.313s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/environment/ament_prefix_path.dsv
+[2.314s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/environment/path.sh
+[2.315s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/environment/path.dsv
+[2.315s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/local_setup.bash
+[2.315s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/local_setup.sh
+[2.316s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/local_setup.zsh
+[2.316s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/local_setup.dsv
+[2.316s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/package.dsv
+[2.324s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/ament_index/resource_index/packages/image_view
+[2.324s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/ament_index/resource_index/rclcpp_components/image_view
+[2.324s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.324s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.324s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/cmake/ament_cmake_export_libraries-extras.cmake
+[2.324s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/cmake/image_viewConfig.cmake
+[2.325s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/cmake/image_viewConfig-version.cmake
+[2.325s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_view/share/image_view/package.xml
+[2.566s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_view

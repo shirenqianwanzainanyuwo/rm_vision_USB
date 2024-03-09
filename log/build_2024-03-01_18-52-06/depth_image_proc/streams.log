@@ -1,0 +1,99 @@
+[0.347s] Invoking command in '/home/wjrgfdy/rm_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/depth_image_proc
+[0.390s] -- The C compiler identification is GNU 12.3.0
+[0.450s] -- The CXX compiler identification is GNU 12.3.0
+[0.470s] -- Detecting C compiler ABI info
+[0.533s] -- Detecting C compiler ABI info - done
+[0.547s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.547s] -- Detecting C compile features
+[0.548s] -- Detecting C compile features - done
+[0.558s] -- Detecting CXX compiler ABI info
+[0.639s] -- Detecting CXX compiler ABI info - done
+[0.647s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.647s] -- Detecting CXX compile features
+[0.648s] -- Detecting CXX compile features - done
+[0.650s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.040s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.290s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.296s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.304s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.323s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.342s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.585s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.588s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.709s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.734s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.782s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.832s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.834s] -- Found Threads: TRUE  
+[2.723s] -- Found OpenCV: /usr/local (found version "4.9.0") 
+[2.745s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.781s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.784s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.785s] -- Configured cppcheck include dirs: /home/wjrgfdy/rm_ws/src/image_pipeline/depth_image_proc/include
+[2.785s] -- Configured cppcheck exclude dirs and/or files: 
+[2.788s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.788s] -- Configured cpplint exclude dirs and/or files: 
+[2.790s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.792s] -- Added test 'lint_cmake' to check CMake code style
+[2.794s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.796s] -- Added test 'uncrustify' to check C / C++ code style
+[2.797s] -- Configured uncrustify additional arguments: 
+[2.798s] -- Added test 'xmllint' to check XML markup files
+[2.803s] -- Configuring done (2.5s)
+[2.873s] -- Generating done (0.1s)
+[2.878s] -- Build files have been written to: /home/wjrgfdy/rm_ws/build/depth_image_proc
+[2.898s] Invoked command in '/home/wjrgfdy/rm_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/depth_image_proc
+[2.899s] Invoking command in '/home/wjrgfdy/rm_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/depth_image_proc -- -j12 -l12
+[3.051s] [  3%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/conversions.cpp.o[0m
+[3.051s] [  6%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/convert_metric.cpp.o[0m
+[3.055s] [  9%] [32mBuilding CXX object CMakeFiles/crop_foremost_node.dir/rclcpp_components/node_main_crop_foremost_node.cpp.o[0m
+[3.055s] [ 12%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/crop_foremost.cpp.o[0m
+[3.060s] [ 15%] [32mBuilding CXX object CMakeFiles/convert_metric_node.dir/rclcpp_components/node_main_convert_metric_node.cpp.o[0m
+[3.061s] [ 18%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/disparity.cpp.o[0m
+[3.091s] [ 21%] [32mBuilding CXX object CMakeFiles/disparity_node.dir/rclcpp_components/node_main_disparity_node.cpp.o[0m
+[3.102s] [ 25%] [32mBuilding CXX object CMakeFiles/point_cloud_xyz_node.dir/rclcpp_components/node_main_point_cloud_xyz_node.cpp.o[0m
+[3.123s] [ 28%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyz.cpp.o[0m
+[3.131s] [ 31%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb.cpp.o[0m
+[3.166s] [ 34%] [32mBuilding CXX object CMakeFiles/point_cloud_xyzrgb_node.dir/rclcpp_components/node_main_point_cloud_xyzrgb_node.cpp.o[0m
+[3.211s] [ 37%] [32mBuilding CXX object CMakeFiles/point_cloud_xyzi_node.dir/rclcpp_components/node_main_point_cloud_xyzi_node.cpp.o[0m
+[8.460s] [ 40%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi.cpp.o[0m
+[17.016s] [ 43%] [32m[1mLinking CXX executable disparity_node[0m
+[17.140s] [ 46%] [32m[1mLinking CXX executable convert_metric_node[0m
+[17.544s] [ 46%] Built target convert_metric_node
+[17.584s] [ 46%] Built target disparity_node
+[17.626s] [ 50%] [32mBuilding CXX object CMakeFiles/point_cloud_xyz_radial_node.dir/rclcpp_components/node_main_point_cloud_xyz_radial_node.cpp.o[0m
+[17.652s] [ 53%] [32mBuilding CXX object CMakeFiles/point_cloud_xyzi_radial_node.dir/rclcpp_components/node_main_point_cloud_xyzi_radial_node.cpp.o[0m
+[17.660s] [ 56%] [32m[1mLinking CXX executable point_cloud_xyzi_node[0m
+[18.033s] [ 59%] [32m[1mLinking CXX executable point_cloud_xyz_node[0m
+[18.057s] [ 62%] [32m[1mLinking CXX executable crop_foremost_node[0m
+[18.457s] [ 65%] [32m[1mLinking CXX executable point_cloud_xyzrgb_node[0m
+[18.512s] [ 65%] Built target point_cloud_xyzi_node
+[18.533s] [ 65%] Built target point_cloud_xyz_node
+[18.598s] [ 68%] [32mBuilding CXX object CMakeFiles/point_cloud_xyzrgb_radial_node.dir/rclcpp_components/node_main_point_cloud_xyzrgb_radial_node.cpp.o[0m
+[18.636s] [ 71%] [32mBuilding CXX object CMakeFiles/register_node.dir/rclcpp_components/node_main_register_node.cpp.o[0m
+[18.767s] [ 71%] Built target crop_foremost_node
+[18.789s] [ 75%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyz_radial.cpp.o[0m
+[18.860s] [ 75%] Built target point_cloud_xyzrgb_node
+[18.882s] [ 78%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi_radial.cpp.o[0m
+[19.320s] [ 81%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb_radial.cpp.o[0m
+[20.808s] [ 84%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/register.cpp.o[0m
+[27.877s] [ 87%] [32m[1mLinking CXX executable register_node[0m
+[28.305s] [ 90%] [32m[1mLinking CXX executable point_cloud_xyzrgb_radial_node[0m
+[28.349s] [ 90%] Built target register_node
+[28.635s] [ 93%] [32m[1mLinking CXX executable point_cloud_xyz_radial_node[0m
+[28.802s] [ 93%] Built target point_cloud_xyzrgb_radial_node
+[28.837s] [ 96%] [32m[1mLinking CXX executable point_cloud_xyzi_radial_node[0m
+[29.149s] [ 96%] Built target point_cloud_xyz_radial_node
+[29.228s] [ 96%] Built target point_cloud_xyzi_radial_node
+[46.512s] [100%] [32m[1mLinking CXX shared library libdepth_image_proc.so[0m
+[49.606s] [100%] Built target depth_image_proc
+[49.614s] Invoked command in '/home/wjrgfdy/rm_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/depth_image_proc -- -j12 -l12
+[49.787s] Invoking command in '/home/wjrgfdy/rm_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/depth_image_proc
+[49.791s] -- Install configuration: ""
+[49.791s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/depth_image_proc/include
+[49.792s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/depth_image_proc/include/depth_image_proc
+[49.792s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch
+[49.792s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz
+[49.792s] -- Installing: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/package.dsv
+[49.795s] Invoked command in '/home/wjrgfdy/rm_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/depth_image_proc

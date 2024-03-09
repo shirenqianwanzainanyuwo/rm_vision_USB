@@ -1,0 +1,22 @@
+[0.914s] Invoking command in '/home/wjrgfdy/rm_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/rm_gimbal_description -- -j12 -l12
+[1.033s] Invoked command in '/home/wjrgfdy/rm_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/rm_gimbal_description -- -j12 -l12
+[1.272s] Invoking command in '/home/wjrgfdy/rm_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/rm_gimbal_description
+[1.287s] -- Install configuration: ""
+[1.290s] -- Execute custom install script
+[1.290s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/urdf/rm_gimbal.urdf.xacro
+[1.290s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/ament_index/resource_index/package_run_dependencies/rm_gimbal_description
+[1.290s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/ament_index/resource_index/parent_prefix_path/rm_gimbal_description
+[1.290s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.sh
+[1.291s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.dsv
+[1.313s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.sh
+[1.314s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.dsv
+[1.315s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.bash
+[1.315s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.sh
+[1.315s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.zsh
+[1.316s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.dsv
+[1.316s] -- Symlinking: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv
+[1.323s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/ament_index/resource_index/packages/rm_gimbal_description
+[1.323s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig.cmake
+[1.324s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig-version.cmake
+[1.324s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/rm_gimbal_description/share/rm_gimbal_description/package.xml
+[1.633s] Invoked command in '/home/wjrgfdy/rm_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/rm_gimbal_description

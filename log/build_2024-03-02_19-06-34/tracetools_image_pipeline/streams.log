@@ -1,0 +1,51 @@
+[0.366s] Invoking command in '/home/wjrgfdy/rm_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline
+[0.414s] -- The C compiler identification is GNU 12.3.0
+[0.482s] -- The CXX compiler identification is GNU 12.3.0
+[0.500s] -- Detecting C compiler ABI info
+[0.575s] -- Detecting C compiler ABI info - done
+[0.588s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.588s] -- Detecting C compile features
+[0.588s] -- Detecting C compile features - done
+[0.597s] -- Detecting CXX compiler ABI info
+[0.684s] -- Detecting CXX compiler ABI info - done
+[0.697s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.697s] -- Detecting CXX compile features
+[0.698s] -- Detecting CXX compile features - done
+[0.701s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.074s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.192s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.193s] -- Checking for module 'lttng-ust'
+[1.195s] --   No package 'lttng-ust' found
+[1.201s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.290s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.292s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.292s] -- Configured cppcheck include dirs: 
+[1.292s] -- Configured cppcheck exclude dirs and/or files: 
+[1.293s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.293s] -- Configured cpplint exclude dirs and/or files: 
+[1.294s] -- Added test 'lint_cmake' to check CMake code style
+[1.296s] -- Added test 'uncrustify' to check C / C++ code style
+[1.296s] -- Configured uncrustify additional arguments: 
+[1.297s] -- Added test 'xmllint' to check XML markup files
+[1.299s] -- Configuring done (0.9s)
+[1.306s] -- Generating done (0.0s)
+[1.307s] -- Build files have been written to: /home/wjrgfdy/rm_ws/build/tracetools_image_pipeline
+[1.311s] Invoked command in '/home/wjrgfdy/rm_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/tracetools_image_pipeline
+[1.312s] Invoking command in '/home/wjrgfdy/rm_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/tracetools_image_pipeline -- -j12 -l12
+[1.344s] [ 40%] [32mBuilding CXX object CMakeFiles/tracetools_image_pipeline.dir/src/utils.cpp.o[0m
+[1.344s] [ 40%] [32mBuilding C object CMakeFiles/tracetools_image_pipeline.dir/src/tracetools.c.o[0m
+[1.454s] [ 60%] [32m[1mLinking CXX shared library libtracetools_image_pipeline.so[0m
+[1.487s] [ 60%] Built target tracetools_image_pipeline
+[1.496s] [ 80%] [32mBuilding C object CMakeFiles/status.dir/src/status.c.o[0m
+[1.513s] [100%] [32m[1mLinking C executable status[0m
+[1.540s] [100%] Built target status
+[1.548s] Invoked command in '/home/wjrgfdy/rm_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/tracetools_image_pipeline -- -j12 -l12
+[1.596s] Invoking command in '/home/wjrgfdy/rm_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/tracetools_image_pipeline
+[1.600s] -- Install configuration: ""
+[1.600s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/include
+[1.600s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline
+[1.600s] -- Installing: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/lib/libtracetools_image_pipeline.so
+[1.601s] -- Installing: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv
+[1.601s] -- Installing: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport.cmake
+[1.601s] -- Installing: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport-noconfig.cmake
+[1.603s] Invoked command in '/home/wjrgfdy/rm_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/tracetools_image_pipeline

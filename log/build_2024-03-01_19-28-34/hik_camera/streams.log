@@ -1,0 +1,55 @@
+[0.154s] Invoking command in '/home/wjrgfdy/rm_ws/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/ros2-hik-camera -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/hik_camera
+[0.208s] -- The C compiler identification is GNU 12.3.0
+[0.273s] -- The CXX compiler identification is GNU 12.3.0
+[0.291s] -- Detecting C compiler ABI info
+[0.363s] -- Detecting C compiler ABI info - done
+[0.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.376s] -- Detecting C compile features
+[0.377s] -- Detecting C compile features - done
+[0.387s] -- Detecting CXX compiler ABI info
+[0.471s] -- Detecting CXX compiler ABI info - done
+[0.478s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.479s] -- Detecting CXX compile features
+[0.479s] -- Detecting CXX compile features - done
+[0.481s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.884s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.136s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.145s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.159s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.322s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.326s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.578s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.617s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.718s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.746s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.077s] -- Found Threads: TRUE  
+[3.653s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.734s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.741s] -- Configured cppcheck include dirs: /home/wjrgfdy/rm_ws/src/ros2-hik-camera/hikSDK/include
+[3.741s] -- Configured cppcheck exclude dirs and/or files: 
+[3.742s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.744s] -- Added test 'lint_cmake' to check CMake code style
+[3.748s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.749s] -- Added test 'xmllint' to check XML markup files
+[3.768s] -- Configuring done (3.6s)
+[3.815s] -- Generating done (0.0s)
+[3.818s] -- Build files have been written to: /home/wjrgfdy/rm_ws/build/hik_camera
+[3.852s] Invoked command in '/home/wjrgfdy/rm_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake /home/wjrgfdy/rm_ws/src/ros2-hik-camera -DCMAKE_INSTALL_PREFIX=/home/wjrgfdy/rm_ws/install/hik_camera
+[3.853s] Invoking command in '/home/wjrgfdy/rm_ws/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/hik_camera -- -j12 -l12
+[4.072s] [ 25%] [32mBuilding CXX object CMakeFiles/hik_camera.dir/src/hik_camera_node.cpp.o[0m
+[4.101s] [ 50%] [32mBuilding CXX object CMakeFiles/hik_camera_node.dir/rclcpp_components/node_main_hik_camera_node.cpp.o[0m
+[20.217s] [ 75%] [32m[1mLinking CXX executable hik_camera_node[0m
+[20.492s] [ 75%] Built target hik_camera_node
+[20.746s] [100%] [32m[1mLinking CXX shared library libhik_camera.so[0m
+[21.304s] [100%] Built target hik_camera
+[21.347s] Invoked command in '/home/wjrgfdy/rm_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/hik_camera -- -j12 -l12
+[21.673s] Invoking command in '/home/wjrgfdy/rm_ws/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/hik_camera
+[21.684s] -- Install configuration: ""
+[21.684s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/hik_camera/lib
+[21.684s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/hik_camera/share/hik_camera/config
+[21.684s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/hik_camera/share/hik_camera/launch
+[21.684s] -- Installing: /home/wjrgfdy/rm_ws/install/hik_camera/share/hik_camera/package.dsv
+[21.693s] Invoked command in '/home/wjrgfdy/rm_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/hik_camera

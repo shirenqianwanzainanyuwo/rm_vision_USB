@@ -1,0 +1,41 @@
+[0.530s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_publisher -- -j12 -l12
+[0.689s] [ 25%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[17.527s] [ 50%] [32m[1mLinking CXX shared library libimage_publisher.so[0m
+[18.596s] [ 50%] Built target image_publisher
+[18.731s] [ 75%] [32mBuilding CXX object CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o[0m
+[28.852s] [100%] [32m[1mLinking CXX executable image_publisher_node[0m
+[30.832s] [100%] Built target image_publisher_node
+[30.871s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/image_publisher -- -j12 -l12
+[31.460s] Invoking command in '/home/wjrgfdy/rm_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_publisher
+[31.470s] -- Install configuration: ""
+[31.471s] -- Execute custom install script
+[31.471s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/include/image_publisher/image_publisher.hpp
+[31.471s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/include/image_publisher/visibility.h
+[31.472s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/environment/library_path.sh
+[31.475s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/environment/library_path.dsv
+[31.477s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/lib/libimage_publisher.so
+[31.480s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/lib/image_publisher/image_publisher_node
+[31.480s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py
+[31.480s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py
+[31.480s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py
+[31.481s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/launch/splash.png
+[31.481s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/ament_index/resource_index/package_run_dependencies/image_publisher
+[31.481s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/ament_index/resource_index/parent_prefix_path/image_publisher
+[31.481s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.sh
+[31.481s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.dsv
+[31.482s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/environment/path.sh
+[31.482s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/environment/path.dsv
+[31.482s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/local_setup.bash
+[31.482s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/local_setup.sh
+[31.482s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/local_setup.zsh
+[31.483s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/local_setup.dsv
+[31.483s] -- Symlinking: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/package.dsv
+[31.507s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/ament_index/resource_index/packages/image_publisher
+[31.507s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/ament_index/resource_index/rclcpp_components/image_publisher
+[31.507s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.508s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.508s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+[31.508s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake
+[31.508s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake
+[31.508s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/image_publisher/share/image_publisher/package.xml
+[31.516s] Invoked command in '/home/wjrgfdy/rm_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/image_publisher

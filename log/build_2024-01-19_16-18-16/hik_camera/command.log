@@ -1,0 +1,4 @@
+Invoking command in '/home/wjrgfdy/rm_ws/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/hik_camera -- -j12 -l12
+Invoked command in '/home/wjrgfdy/rm_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/hik_camera -- -j12 -l12
+Invoking command in '/home/wjrgfdy/rm_ws/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/hik_camera
+Invoked command in '/home/wjrgfdy/rm_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/hik_camera

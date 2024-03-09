@@ -1,0 +1,36 @@
+[0.552s] Invoking command in '/home/wjrgfdy/rm_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/tracetools_image_pipeline -- -j12 -l12
+[0.680s] [ 60%] Built target tracetools_image_pipeline
+[0.748s] [100%] Built target status
+[0.811s] Invoked command in '/home/wjrgfdy/rm_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/tracetools_image_pipeline -- -j12 -l12
+[1.456s] Invoking command in '/home/wjrgfdy/rm_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/tracetools_image_pipeline
+[1.477s] -- Install configuration: ""
+[1.477s] -- Execute custom install script
+[1.477s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.sh
+[1.477s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.dsv
+[1.477s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status
+[1.477s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/config.h
+[1.477s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tracetools.h
+[1.477s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/utils.hpp
+[1.478s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/visibility_control.hpp
+[1.478s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/ament_index/resource_index/package_run_dependencies/tracetools_image_pipeline
+[1.478s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/ament_index/resource_index/parent_prefix_path/tracetools_image_pipeline
+[1.478s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.sh
+[1.478s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.dsv
+[1.478s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.sh
+[1.478s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.dsv
+[1.478s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.bash
+[1.478s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.sh
+[1.478s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.zsh
+[1.478s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.dsv
+[1.478s] -- Symlinking: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv
+[1.509s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/ament_index/resource_index/packages/tracetools_image_pipeline
+[1.509s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_targets-extras.cmake
+[1.509s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.510s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_libraries-extras.cmake
+[1.510s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig.cmake
+[1.510s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig-version.cmake
+[1.510s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.xml
+[1.511s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/lib/libtracetools_image_pipeline.so
+[1.511s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport.cmake
+[1.511s] -- Up-to-date: /home/wjrgfdy/rm_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport-noconfig.cmake
+[1.525s] Invoked command in '/home/wjrgfdy/rm_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/tracetools_image_pipeline

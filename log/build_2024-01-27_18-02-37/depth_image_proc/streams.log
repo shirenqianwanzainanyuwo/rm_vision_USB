@@ -1,0 +1,76 @@
+[0.350s] Invoking command in '/home/wjrgfdy/rm_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/depth_image_proc -- -j12 -l12
+[0.395s] [  6%] Built target convert_metric_node
+[0.395s] [ 12%] Built target crop_foremost_node
+[0.396s] [ 21%] Built target point_cloud_xyz_node
+[0.396s] [ 25%] Built target disparity_node
+[0.400s] [ 31%] Built target point_cloud_xyzrgb_node
+[0.405s] [ 68%] Built target depth_image_proc
+[0.411s] [ 75%] Built target point_cloud_xyzi_node
+[0.414s] [ 81%] Built target point_cloud_xyz_radial_node
+[0.416s] [ 87%] Built target point_cloud_xyzi_radial_node
+[0.418s] [ 93%] Built target point_cloud_xyzrgb_radial_node
+[0.424s] [100%] Built target register_node
+[0.440s] Invoked command in '/home/wjrgfdy/rm_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --build /home/wjrgfdy/rm_ws/build/depth_image_proc -- -j12 -l12
+[0.596s] Invoking command in '/home/wjrgfdy/rm_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/depth_image_proc
+[0.655s] -- Install configuration: ""
+[0.655s] -- Execute custom install script
+[0.655s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/lib/depth_image_proc/convert_metric_node
+[0.655s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/lib/depth_image_proc/crop_foremost_node
+[0.655s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/lib/depth_image_proc/disparity_node
+[0.655s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyz_node
+[0.655s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyzrgb_node
+[0.655s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyzi_node
+[0.655s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyz_radial_node
+[0.655s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyzi_radial_node
+[0.655s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyzrgb_radial_node
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/lib/depth_image_proc/register_node
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/include/depth_image_proc/conversions.hpp
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/include/depth_image_proc/depth_traits.hpp
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyz.hpp
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyz_radial.hpp
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzi.hpp
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzi_radial.hpp
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb.hpp
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb_radial.hpp
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/include/depth_image_proc/visibility.h
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/environment/library_path.sh
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/environment/library_path.dsv
+[0.656s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/lib/libdepth_image_proc.so
+[0.657s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/convert_metric.launch.py
+[0.657s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/crop_foremost.launch.py
+[0.657s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/disparity.launch.py
+[0.657s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyz.launch.py
+[0.657s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyz_radial.launch.py
+[0.657s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzi.launch.py
+[0.657s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzi_radial.launch.py
+[0.657s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzrgb.launch.py
+[0.657s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzrgb_radial.launch.py
+[0.658s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/register.launch.py
+[0.658s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/convert_metric.rviz
+[0.658s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/crop_formost.rviz
+[0.658s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/disparity.rviz
+[0.658s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyz.rviz
+[0.658s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyz_radial.rviz
+[0.658s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyzi.rviz
+[0.658s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyzrgb.rviz
+[0.658s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/register.rviz
+[0.658s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/ament_index/resource_index/package_run_dependencies/depth_image_proc
+[0.658s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/ament_index/resource_index/parent_prefix_path/depth_image_proc
+[0.659s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/environment/ament_prefix_path.sh
+[0.659s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/environment/ament_prefix_path.dsv
+[0.659s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/environment/path.sh
+[0.659s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/environment/path.dsv
+[0.659s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/local_setup.bash
+[0.659s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/local_setup.sh
+[0.659s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/local_setup.zsh
+[0.659s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/local_setup.dsv
+[0.659s] -- Symlinking: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/package.dsv
+[0.659s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/ament_index/resource_index/packages/depth_image_proc
+[0.659s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/ament_index/resource_index/rclcpp_components/depth_image_proc
+[0.660s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.660s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.660s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[0.660s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig.cmake
+[0.660s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig-version.cmake
+[0.660s] -- Up-to-date symlink: /home/wjrgfdy/rm_ws/install/depth_image_proc/share/depth_image_proc/package.xml
+[0.740s] Invoked command in '/home/wjrgfdy/rm_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wjrgfdy/rm_ws/install/camera_calibration:/opt/ros/humble _=/usr/bin/env /usr/local/bin/cmake --install /home/wjrgfdy/rm_ws/build/depth_image_proc
